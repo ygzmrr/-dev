@@ -1,0 +1,21 @@
+package Denem1;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Üç sınav notunu sırasıyla giriniz:");
+        double ortalama = (scanner.nextDouble() + scanner.nextDouble() + scanner.nextDouble()) / 3;
+
+        if (ortalama >= 50) {
+            System.out.println("Öğrenci geçti. Ortalaması: " + ortalama);
+        } else {
+            System.out.println("Öğrenci kaldı. Ortalaması: " + ortalama);
+        }
+		
+
+	}
+
+}
