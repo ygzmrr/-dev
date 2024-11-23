@@ -1,0 +1,26 @@
+package Denem1;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int uzunluk;
+        int yukseklik;
+        int sonuc;
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Uzunluk girin:");
+        uzunluk = scanner.nextInt();
+
+        System.out.println("Yükseklik girin:");
+        yukseklik = scanner.nextInt();
+
+        sonuc = uzunluk * yukseklik;
+
+        System.out.println("dikdörtgenin alanı "+ sonuc);
+		
+
+	}
+
+}
