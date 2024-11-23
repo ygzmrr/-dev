@@ -1,0 +1,23 @@
+package Denem1;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int dogumyili; 
+        int yil = 2021; 
+        int sonuc; 
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Doğduğunuz yılı girin:");
+        dogumyili = scanner.nextInt();
+
+        sonuc = yil - dogumyili;
+
+        System.out.println("Yaşınız:"+ sonuc);
+		
+
+	}
+
+}
